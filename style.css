@@ -1,0 +1,69 @@
+/* Centralizando o conteúdo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+}
+
+/* Estilo para a imagem de ícones ao lado dos campos de entrada */
+.input-group-img img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+/* Estilos para as mensagens de resultado, com diferentes cores para cada classificação */
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Cores para cada classificação de IMC */
+.resultado.baixo-peso {
+    background-color: #e9e392;  /* Verde claro para baixo peso */
+    color: #756e08;  /* Cor do texto verde */
+}
+
+.resultado.peso-normal {
+    background-color: #d4edda;  /* Verde para peso normal */
+    color: #155724;  /* Cor do texto verde escuro */
+}
+
+.resultado.sobrepeso {
+    background-color: #fff3cd;  /* Amarelo para sobrepeso */
+    color: #856404;  /* Cor do texto amarelo escuro */
+}
+
+.resultado.obesidade {
+    background-color: #f8d7da;  /* Vermelho claro para obesidade */
+    color: #721c24;  /* Cor do texto vermelho escuro */
+}
+
+.resultado.obesidade-grave {
+    background-color: #f5c6cb;  /* Vermelho mais forte para obesidade grave */
+    color: #721c24;  /* Cor do texto vermelho escuro */
+}
+
+/* Estilos personalizados para o formulário */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+/* Melhorando a aparência do botão */
+#btn-calcular, #btn-limpar  {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ajustando a disposição do formulário em dispositivos móveis */
+@media (max-width: 576px) {
+    .col-md-4 {
+        width: 100%;
+    }
+}
