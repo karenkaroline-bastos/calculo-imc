@@ -96,7 +96,7 @@
             const valorPeso = parseFloat(document.getElementById('valor-peso').value);
 
             if (valorAltura <= 0 || valorPeso <= 0) {
-                alert("Por favor, insira valores válidos para altura e peso.");
+                alert("Por favor, insira valores válidos para altura e/ou peso.");
                 return;
             }
 
